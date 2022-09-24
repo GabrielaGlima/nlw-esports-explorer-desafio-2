@@ -29,7 +29,7 @@ header{
 header div{
     width: 120px;
     margin: auto;
-    background-image:linear-gradient(90deg, #C91842 0%, #B53860 18.75%, #A1577D 36.98%, #96688D 46.88%, #877FA3 60.42%, #769ABD 77.6%, #67B1D2 90.63%, #5CC2E2 100%);
+    background: linear-gradient(90deg, rgba(136,131,226,1) 26%, rgba(0,212,255,1) 100%);
     border-radius:50%;
     padding:4px;
     display: flex;
@@ -55,7 +55,7 @@ main{
 
 section{
     color: white;
-    background-image: linear-gradient(90deg, #C91842 0%, #B53860 18.75%, #A1577D 36.98%, #96688D 46.88%, #877FA3 60.42%, #769ABD 77.6%, #67B1D2 90.63%, #5CC2E2 100%);
+    background: linear-gradient(90deg, rgba(136,131,226,1) 26%, rgba(0,212,255,1) 100%);
     padding-top: 4px;
     border-radius: 10px;
 }
