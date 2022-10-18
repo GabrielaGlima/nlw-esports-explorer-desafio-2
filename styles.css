@@ -9,31 +9,31 @@ ul{
 }
 
 body{
-    background-image: url(./img/Fundo.jpg);
-    background-size: 100% auto;
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-color:#121214;
+    background-image: url(./img/Fundo.jpg);/*imagem de fundo*/
+    background-size: 100% auto;/*tamanho dda image 100% / auto deixa a tela automatica*/
+    background-position: top center;/*posiciona a imagem no topo e centralizada*/
+    background-repeat: no-repeat;/*imagem de fundo não ira se repetir*/
+    background-color:#121214;/*cor da imagem de fundo*/
 }
 
 body *{
-    font-family: 'Montserrat', sans-serif ;
-    line-height: 160%;
+    font-family: 'Montserrat', sans-serif ;/*fonte do texto*/
+    line-height: 160%;/*espaço entre as linhas / espaçamento vertical*/
 }  
 
 header{
-    padding-top: 30px;
+    padding-top: 30px;/*espaçamento do cabeçalho com o topo do site*/
     height:calc(120px + 32px);
 }
 
 header div{
-    width: 120px;
-    margin: auto;
-    background: linear-gradient(90deg, rgba(136,131,226,1) 26%, rgba(0,212,255,1) 100%);
-    border-radius:50%;
-    padding:4px;
-    display: flex;
-    transition: transform .3s;
+    width: 120px;/*largura da imagem*/
+    margin: auto;/*cantraliza automaticamente*/
+    background: linear-gradient(90deg, rgba(136,131,226,1) 26%, rgba(0,212,255,1) 100%);/*borda apresenta um gradiente de cores*/
+    border-radius:50%;/*tamanho do raio da borda*/
+    padding:4px;/*largura da borda*/
+    display: flex;/*deixa os elementos lado a lado*/
+    transition: transform .3s;/*tempo da animação*/
 }
 
 header div:hover {
@@ -60,7 +60,7 @@ section{
     border-radius: 10px;
 }
 section div {
-    background-color: #2A2634;
+    background-color: #2A2634; 
     padding: 32px;
     padding-top:24px ;
     border-radius:8px ;
